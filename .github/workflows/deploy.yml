@@ -34,4 +34,4 @@ jobs:
 
         curl -X POST "${{ secrets.DEPLOY_URL }}?repo=$REPO&tag=latest&slot=2&container_port=$CONTAINER_PORT&strict_container_port=0" || true
 
-        echo "✅ Đã gửi lệnh deploy (không chờ server)"
+        echo "✅ Đã gửi lệnh deploy. (không chờ server)"
